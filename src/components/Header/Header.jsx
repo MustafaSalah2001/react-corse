@@ -1,13 +1,12 @@
-import React from "react";
-import Navbar from "./Navbar"; //  استيراد الـ Navbar باسمه الصحيح
+import Navbar from "./Navbar";
 
-const Header = () => {
+function Header({ Links }) {
   return (
-    <header  >
+    <header>
       <a href="/">logo</a>
-      <Navbar /> {/* استدعاء الـ Navbar هنا */}
+      <Navbar Links={Links} />
     </header>
   );
-};
+}
 
 export default Header;

@@ -1,7 +1,7 @@
 import React from "react";
 
 function Navbar() {
-  const Links = [
+   const Links = [
     { name: "Home", link: "/" },
     { name: "About", link: "/about" },
     { name: "Contact", link: "/contact" },
